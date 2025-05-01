@@ -1,0 +1,1 @@
+iverilog -W all xor.sv testbench.sv && vvp a.out && gtkwave dump.vcd
