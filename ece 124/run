@@ -1,1 +1,1 @@
-iverilog -W all xor.sv testbench.sv && vvp a.out && gtkwave dump.vcd
+iverilog -W all mux.sv xor.sv testbench.sv && vvp a.out && gtkwave dump.vcd
